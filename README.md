@@ -5,11 +5,11 @@
 * [Project Overview](#-project-overview)
 * [The Intelligence Engine](#-the-intelligence-engine)
 * [Key Features](#-key-features)
-* [Technical Stack](#-technical-stack)
-* [Database Schema](#-database-schema)
+* [Technical Stack](#%EF%B8%8F-technical-stack)
+* [Database Schema](#%EF%B8%8F-database-schema)
 * [Data Preview](#%EF%B8%8F-data-preview)
-* [Installation & Setup](#-installation--setup)
-* [Usage Guide](#-usage-guide)
+* [Installation & Setup](#%EF%B8%8F-installation--setup)
+* [Usage Guide](#%EF%B8%8F-usage-guide)
 
 ---
 
@@ -61,11 +61,11 @@ The system connects to a `precision_farming` database with a structured `crop_da
 
 ### 1. Recommendation Dashboard
 *The Flask interface where farmers input environmental variables to receive AI insights.*
-![Dashboard Preview](INSERT_IMAGE_NAME_1.png)
+![Dashboard Preview](dashboard.png)
 
 ### 2. Decision Tree Logic
 *A visualization of how the Machine Learning model branches to reach a crop conclusion.*
-![Model Logic](INSERT_IMAGE_NAME_2.png)
+![Model Logic](recommendation.png)
 
 ---
 
