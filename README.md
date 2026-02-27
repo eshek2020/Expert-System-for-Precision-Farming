@@ -61,11 +61,11 @@ The system connects to a `precision_farming` database with a structured `crop_da
 
 ### 1. Recommendation Dashboard
 *The Flask interface where farmers input environmental variables to receive AI insights.*
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](dashboard.jpg)
 
 ### 2. Decision Tree Logic
 *A visualization of how the Machine Learning model branches to reach a crop conclusion.*
-![Model Logic](recommendation.png)
+![Model Logic](recommendation.jpg)
 
 ---
 
