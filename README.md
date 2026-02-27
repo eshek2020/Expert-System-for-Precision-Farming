@@ -88,7 +88,8 @@ The system connects to a `precision_farming` database with a structured `crop_da
    
 Access the system at http://127.0.0.1:5000/
 
-**📖 Usage Guide**
+## 📖 Usage Guide
+
 **Data Input:** Enter soil type, moisture level, and current weather metrics into the web form.
 **Pest Symptoms:** If applicable, select symptoms (e.g., "yellow leaves") to get a diagnosis.
 **Analyze:** Click "Get Recommendations" to trigger the ML model and rule-based engine.
