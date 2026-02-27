@@ -7,7 +7,7 @@
 * [Key Features](#-key-features)
 * [Technical Stack](#-technical-stack)
 * [Database Schema](#-database-schema)
-* [Data Preview] (#%EF%B8%8F-data-preview)
+* [Data Preview](#%EF%B8%8F-data-preview)
 * [Installation & Setup](#-installation--setup)
 * [Usage Guide](#-usage-guide)
 
@@ -75,3 +75,21 @@ The system connects to a `precision_farming` database with a structured `crop_da
    ```bash
    git clone [https://github.com/eshek2020/precision-farming-expert-system.git](https://github.com/eshek2020/precision-farming-expert-system.git)
    cd precision-farming-expert-system
+   
+**Database Setup:**
+   Create a MySQL database named precision_farming.
+   Update the connection string in expert_system.py if your root password is not empty.
+
+**Install Dependencies:**
+   pip install -r requirements.txt
+   
+**Run the Application:**
+   python app.py
+   
+Access the system at http://127.0.0.1:5000/
+
+**📖 Usage Guide**
+**Data Input:** Enter soil type, moisture level, and current weather metrics into the web form.
+**Pest Symptoms:** If applicable, select symptoms (e.g., "yellow leaves") to get a diagnosis.
+**Analyze:** Click "Get Recommendations" to trigger the ML model and rule-based engine.
+**Review Results:** The system will display the optimal crop, an irrigation schedule, and specific fertilizer types to use.
